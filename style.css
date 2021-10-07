@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#home{
+    margin: 20px 50px;
+
+}
+
+/* Navbar  */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: inline-block;
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+/* Home Content  */
+
+/* Home Text  */
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home-content div{
+    flex-basis: 50%;
+
+}
+
+.home-text{
+    margin-top: 50px;
+    max-width: 500px;
+    height: auto;
+}
+
+.home-text h1{
+    font-size: 30px;
+    color: lightseagreen;
+    font-weight: lighter;
+}
+
+.home-text h2{
+    font-size: 40px;
+}
+
+.home-text p{
+    font-size: 14px;
+}
+.home-text button{
+    color: white;
+    padding: 15px 25px;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: salmon;
+    cursor: pointer;
+}
+
+/* Home Image  */
+
+.home-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Hover */
+button:hover{
+    background-color: tomato;
+}
+
+li a:hover{
+    color: tomato;
+}
